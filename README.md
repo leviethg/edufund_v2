@@ -20,10 +20,10 @@ npx hardhat node
 ```
 *Giữ cửa sổ này chạy. Nó cung cấp JSON-RPC tại `http://127.0.0.1:8545`.*
 
-### Bước 3: Chạy Backend Server Giả lập (Terminal 2)
+### Bước 3: Chạy Backend Server (Terminal 2)
 Do chưa có Backend thật, chúng ta chạy một server Node.js nhỏ để giả lập API:
 ```bash
-node server.js
+node server.cjs
 ```
 *Giữ cửa sổ này chạy. Nó cung cấp API tại `http://localhost:3000/v1`.*
 
@@ -31,19 +31,20 @@ node server.js
 ```bash
 npm run dev
 ```
-Truy cập web tại `http://localhost:5173`.
+*Giữ cửa sổ này chạy. Truy cập web tại `http://localhost:5173` hoặc một trong các đường dẫn được in ra.
 
 ### Bước 5: Kết nối & Test
 1. Vào trang **Cài đặt**.
 2. **Tắt "Chế độ Mock"**.
 3. Nhấn **Thêm mạng Hardhat** (Nếu chưa thêm vào MetaMask).
 4. Nhấn **Kết nối Ví**.
-5. Bây giờ bạn có thể **Tạo quỹ** và thấy dữ liệu được lưu vào `server.js` (Lưu ý: Dữ liệu sẽ mất khi tắt server).
+5. Bây giờ bạn có thể **Tạo quỹ** và thấy dữ liệu được lưu vào `server.cjs` (Lưu ý: Dữ liệu sẽ mất khi tắt server).
 
 ## 📂 Cấu trúc thư mục
 - `src/`: Mã nguồn Frontend (React).
+- `edufund-backend/`: Mã nguồn Backend (Solidity).
 - `hardhat.config.cjs`: Cấu hình Blockchain Local.
-- `server.js`: Server Backend giả lập đơn giản.
+- `server.cjs`: Server Backend.
 
 ## 🎨 Design System
 - **Màu chủ đạo:** Blue (`#0f62fe`) & Green (`#00b37e`).
