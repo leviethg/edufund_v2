@@ -1,0 +1,11 @@
+{
+  "transitions": {
+    "hover": "all 0.3s ease-in-out",
+    "pageLoad": "fadeIn 0.5s ease-out",
+    "modal": "scaleIn 0.2s cubic-bezier(0.16, 1, 0.3, 1)"
+  },
+  "delays": {
+    "tooltip": "0.5s",
+    "stagger": "0.1s"
+  }
+}

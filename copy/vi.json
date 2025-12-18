@@ -1,0 +1,33 @@
+{
+  "common": {
+    "appName": "EduFund",
+    "connectWallet": "Kết nối Ví",
+    "connecting": "Đang kết nối...",
+    "createFund": "Tạo quỹ mới",
+    "exploreFunds": "Khám phá quỹ"
+  },
+  "hero": {
+    "title": "Quỹ Học Bổng EduFund",
+    "subtitle": "Nền tảng minh bạch giúp kết nối nhà tài trợ và sinh viên tài năng bằng Blockchain.",
+    "walletNote": "Kết nối ví chỉ để ký — không rút tiền tự động."
+  },
+  "about": {
+    "title": "Về EduFund",
+    "features": {
+      "transparency": "Minh bạch tuyệt đối",
+      "security": "Bảo mật & Ký On-chain",
+      "simple": "Đơn giản cho nhà tài trợ"
+    }
+  },
+  "howItWorks": {
+    "title": "Cách hoạt động",
+    "step1": "Tạo quỹ",
+    "step2": "Nộp hồ sơ",
+    "step3": "Bình chọn / Xét chọn",
+    "step4": "Phát thưởng"
+  },
+  "notifications": {
+    "applySuccess": "Nộp hồ sơ thành công — hồ sơ của bạn đã được gửi.",
+    "networkError": "Lỗi kết nối — kiểm tra mạng hoặc bật Mock Mode."
+  }
+}
